@@ -5,7 +5,7 @@ document.querySelector("#spinner").style.opacity = "0";
 document.querySelector("#spinner").style.transform = "translateY(100%)";
 document.querySelector("#spinner").style.display = "none";
 
-// document.onreadystatechange = function() {
+document.onreadystatechange = function() {
 //     if (document.readyState !== "complete") {
 //         document.querySelector("body").style.visibility = "hidden";
 //         document.querySelector("#spinner").style.visibility = "visible";
@@ -20,4 +20,4 @@ document.querySelector("#spinner").style.display = "none";
 //             document.querySelector("#spinner").style.display = "none";
 //         }, 2000);
 //     }
-// };
+};
